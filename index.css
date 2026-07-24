@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+p {
+    font-size: 20px;
+    display: flex;
+}
+
+.score {
+    background-color: black;
+    color: #8B0000;
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+}
+
+.points {
+    margin: 0;
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 25px;
+    margin: 10px;
+    text-align: center;
+    color: white;
+}
+
+.restartButton {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.restartText {
+    color: white;
+    text-align: center;
+    margin: 10px;
+    justify-content: center;
+}
